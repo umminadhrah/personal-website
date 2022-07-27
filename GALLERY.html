@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>Gallery</title>
+</head>
+<body>
+<table align="center" width="100%" height="40%" cellpadding="9" cellspacing="4">
+<tr align="center">
+<td colspan="8"><img src="image/galleryy.png" width="100%" height="100%"></td>
+</tr>
+<style>
+h1 {letter-spacing: 20px;}
+.container {position: relative; text-align: center; color: black;}
+.centered {position: absolute; top:59%; left: 53%; transform: translate(-40%, -40%);}
+<div></div>
+</style>
+<div class="cover">
+  <div class="centered"><h1><b><font face="Trebuchet MS" size="40" color="7c876a">GALLERY</div></h1></b></font>
+</div>
+<tr align="center" bgcolor="7c876a">
+<td><center><a href="index.html"><font color="white" face="calibri">HOME</a></center></font></td>
+<td><center><a href="BIODATA.html"><font color="white" face="calibri">BIODATA</a></center></font></td>
+<td><center><a href="EXPERIENCE.html"><font color="white" face="calibri">EXPERIENCE</a></center></font></td>
+<td><center><a href="EDUCATION.html"><font color="white" face="calibri">EDUCATION</a></center></font></td>
+<td><center><a href="FAMILY.html"><font color="white" face="calibri">FAMILY</a></center></font></td>
+<td><center><a href="GALLERY.html"><font color="white" face="calibri">GALLERY</a></center></font></td>
+<td><center><a href="QUOTES.html"><font color="white" face="calibri">QUOTES</a></center></font></td>
+</tr>
+</table>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {max-width: 700px; position: relative; margin: auto;}
+
+/* Caption text */
+.text {color: #f2f2f2; font-size: 15px; padding: 8px 12px; position: absolute;bottom: 8px; width: 100%; text-align: center;}
+
+/* Number text (1/3 etc) */
+.numbertext {color: #f2f2f2; font-size: 12px; padding: 8px 12px; position: absolute; top: 0;}
+
+/* The dots/bullets/indicators */
+.dot {height: 15px; width: 15px; margin: 0 2px; background-color: #bbb; border-radius: 50%; display: inline-block; transition: background-color 0.6s ease;}
+
+.active {background-color: #717171;}
+
+/* Fading animation */
+.fade {animation-name: fade; animation-duration: 3s;}
+
+@keyframes fade {from {opacity: .4} to {opacity: 1}}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+<br>
+<br>
+<h1><center><font face="Optima" color="7c876a">WELCOME TO MY GALLERY</h1></font></center>
+<br>
+<br>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 10</div>
+  <img src="image/IMG_20220608_234327.jpg" style="width:100%">
+  <div class="text">a sunset</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 10</div>
+  <img src="image/IMG_20220608_234310.jpg" style="width:100%">
+  <div class="text">is the</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 10</div>
+  <img src="image/IMG_20220608_234534.jpg" style="width:100%">
+  <div class="text">sun's fiery</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 10</div>
+  <img src="image/IMG_20220608_234241.jpg" style="width:100%">
+  <div class="text">kiss to</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 10</div>
+  <img src="image/IMG_20220609_000858.jpg" style="width:100%">
+  <div class="text">the night</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 10</div>
+  <img src="image/IMG_20220609_001032.jpg" style="width:100%">
+  <div class="text">love</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 10</div>
+  <img src="image/IMG_20220608_234300.jpg" style="width:100%">
+  <div class="text">beach view</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 10</div>
+  <img src="image/IMG_20220608_234352.jpg" style="width:100%">
+  <div class="text">jerai view</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">9 / 10</div>
+  <img src="image/IMG_20220608_234500.jpg" style="width:100%">
+  <div class="text">sunrise</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">10 / 10</div>
+  <img src="image/IMG_20220608_234436.jpg" style="width:100%">
+  <div class="text">cloud</div>
+</div>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span> 
+
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 4 seconds
+}
+
+</script>
+
+<center><embed src="C:/Users/HP/Desktop/IMD311 (SIR FIRDAUS)/audio/kiss.mp3" height="60" width="200"></embed></center>
+
+</body>
+</html> 
